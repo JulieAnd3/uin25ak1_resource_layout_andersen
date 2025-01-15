@@ -1,0 +1,47 @@
+:root{
+    --darkgrey: #2A324B;
+    --lightgrey: #58699D;
+    --whiteish: #E1E5EE;
+}
+
+body{
+    background-color: var(--lightgrey);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    header{
+        width: 67%;
+        margin-top: 10rem;
+
+        nav{
+            width: 92%;
+            ul{
+                display: flex;
+                list-style-type: none;
+                margin:0;
+                width: 100%;
+                justify-content: space-between;
+                a{
+                    background-color: var(--darkgrey);
+                    color: var(--whiteish);
+                    text-decoration: none;
+                    padding: 1rem;
+                    font-size: 28px;
+                    margin: 0 0.5rem;
+    
+    
+                }
+            }
+        }
+    }
+    main{
+        max-width: 70%;
+
+        article{
+            background-color: var(--whiteish);
+            color: var(--darkgrey);
+            padding: 2rem;
+        }
+    }
+}
