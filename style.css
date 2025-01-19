@@ -11,33 +11,36 @@ body{
     align-items: center;
 
     header{
-        width: 67%;
         margin-top: 10rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
         nav{
-            width: 92%;
+            
             ul{
                 display: flex;
                 list-style-type: none;
                 margin:0;
+                padding: 0;
                 width: 100%;
                 justify-content: space-between;
                 a{
                     background-color: var(--darkgrey);
                     color: var(--whiteish);
                     text-decoration: none;
-                    padding: 1rem;
-                    font-size: 28px;
-                    margin: 0 0.5rem;
-    
-    
+                    padding: 1rem 2rem ;
+                    font-size: 20px;
+                    margin: 1rem;
+                }
+                #htmlSite{
+                    margin-left: 0;
                 }
             }
         }
     }
     main{
-        max-width: 70%;
-
+        margin-left: 1rem;
+        margin-right: 1rem;
         article{
             background-color: var(--whiteish);
             color: var(--darkgrey);
