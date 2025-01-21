@@ -43,6 +43,10 @@ body{
                 #sanityCmsSite{
                     margin-right: 0;
                 }
+                a:hover{
+                    background-color: var(--white);
+                    color: var(--darkgrey);
+                }
             }
         }
     }
